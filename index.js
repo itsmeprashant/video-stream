@@ -14,7 +14,7 @@ app.get("/video", function (req, res) {
   }
 
   // get video stats (about 61MB)
-  const videoPath = "70999b04-f2ec-48ae-af7b-8abc56493aec.webm";
+  const videoPath = "test.webm";
   const videoSize = fs.statSync(videoPath).size;
 
   // Parse Range
