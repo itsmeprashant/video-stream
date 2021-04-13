@@ -42,6 +42,6 @@ app.get("/video", function (req, res) {
   videoStream.pipe(res);
 });
 
-app.listen(443, function () {
+app.listen(8443, function () {
   console.log("Listening on port 8000!");
 });
